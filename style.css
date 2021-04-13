@@ -1,0 +1,32 @@
+@media only screen and (max-width: 300px) {
+  body {
+      background-color:red;
+      font-size: large;
+  }
+}
+
+@media only screen and (min-width: 300px){
+  body {
+      background-color:green;
+      font-size: 20px;
+  }
+  #small{
+    width: 66%;
+  }
+  #medium{
+    width: 34%;
+  }
+  #large{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+      background-color:blue;
+      font-size: small;
+  }
+ #small, #medium, #large{
+   width: 33%;
+   float: left;
+ }
